@@ -1,4 +1,4 @@
-#native
+# native
 ```lua
 type NativeEntity = {
   x: number,
@@ -33,7 +33,7 @@ local last = #entities
 entities[removeIndex] = entities[last]
 entities[last] = nil
 ```
-#stride
+# stride
 ```lua
 local Stride = require(game.ReplicatedStorage.Stride)
 
